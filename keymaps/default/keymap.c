@@ -31,9 +31,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         MO(1),   KC_SPC,  KC_BSPC, KC_RCTL, KC_NO,   KC_NO,      KC_NO 
     ),
     [1] = LAYOUT_split_04x07(
-        KC_ESC,     _______,    KC_F1,      KC_F2,      _______,      _______,    _______,       
-        KC_PSCR,    _______,    _______,    KC_UP,      KC_RIGHT,    _______,    _______,        
-        KC_DEL,     _______,    KC_LEFT,    KC_DOWN,    KC_F3,   KC_F4,      KC_F5,          
+        KC_ESC,     _______,    KC_F1,      KC_F2,      KC_F3,      KC_F4,    KC_F5,       
+        KC_PSCR,    _______,    _______,    KC_UP,      _______,    _______,    _______,        
+        KC_DEL,     _______,    KC_LEFT,    KC_DOWN,    KC_RIGHT,   _______,    _______,          
         KC_LALT,    _______,    _______,    _______,    _______,    _______,    _______,        
         _______,    _______,    _______,    _______,    _______,    _______,    _______,    
         KC_F6,      KC_F7,      KC_F8,      KC_F9,      KC_F10,     _______,    KC_BSPC,

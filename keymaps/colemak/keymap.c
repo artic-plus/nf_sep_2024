@@ -20,14 +20,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       */
     [0] = LAYOUT_split_04x07(
         KC_HOME, KC_GRAVE,	       KC_1,    KC_2,    KC_3,    KC_4,    KC_5,	
-        KC_END,   KC_TAB,          KC_QUOT,    KC_COMM,    KC_DOT,    KC_P,    KC_Y,         
-        KC_PGUP,  KC_LEFT_CTRL,    KC_A,    KC_O,    KC_E,    KC_U,    KC_I,         
-        KC_PGDN, KC_LEFT_SHIFT,    KC_SCLN,    KC_Q,    KC_J,    KC_K,    KC_X,      
+        KC_END,   KC_TAB,          KC_Q,    KC_W,    KC_F,    KC_P,    KC_G,         
+        KC_PGUP,  KC_LEFT_CTRL,    KC_A,    KC_R,    KC_S,    KC_T,    KC_D,         
+        KC_PGDN, KC_LEFT_SHIFT,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,      
         KC_NO,   KC_NO,            KC_NO,   MO(1),   KC_SPC,   KC_LGUI, KC_ESC,     
-        KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_LBRC,   KC_RBRC,
-        KC_F,    KC_G,    KC_C,    KC_R,    KC_L,    KC_EQL,   LT(1,KC_BSLS),
-        KC_D,    KC_H,    KC_T,    KC_N,    KC_S,    KC_MINS,   KC_ENT,
-        KC_N,    KC_M,    KC_W,    KC_V,    KC_Z,    KC_SLSH,   KC_RSFT,
+        KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS,   KC_EQL,
+        KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN, KC_LBRC,   KC_RBRC,
+        KC_H,    KC_N,    KC_E,    KC_I,    KC_O,    KC_QUOT,   KC_ENT,
+        KC_K,    KC_M,    KC_COMM,    KC_DOT,    KC_SLSH,    KC_BSLS,   KC_RSFT,
         MO(1),   KC_SPC,  KC_BSPC, KC_RCTL, KC_NO,   KC_NO,      KC_NO 
     ),
     [1] = LAYOUT_split_04x07(
